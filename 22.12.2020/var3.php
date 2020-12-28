@@ -1,5 +1,5 @@
 <?php
-$a=5;
+$a=4;
 if ($a == 5) :
     echo "a equals 5";
     echo "...";

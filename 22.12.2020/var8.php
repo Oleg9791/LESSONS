@@ -1,6 +1,6 @@
 <?php
 for ($i = 1;; $i++) {
-    if ($i > 10) {
+    if ($i > 12) {
         break;
     }
     echo $i;
