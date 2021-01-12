@@ -14,6 +14,6 @@ $work = [
 if (isset($work[$a])) {
     echo $work[$a];
 } else {
-    echo "Нет слова такого";
+    echo "Нет такого слова";
 }
 // echo $work[$a];

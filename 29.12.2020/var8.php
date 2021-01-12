@@ -31,4 +31,4 @@ switch ($a) {
         $str = "нет такого слова";
         break;
 }
-echo $str;
+echo $str;// google-переводчик

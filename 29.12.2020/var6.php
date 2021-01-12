@@ -1,5 +1,5 @@
 <?php
-$number = 3;
+$number = 5;
 
 switch ($number) {
     case 0:
@@ -30,4 +30,4 @@ switch ($number) {
         $str = "нет такого числа";
         break;
 }
-echo $str;
+echo $str; // применяется для поиска ошибок в коде
