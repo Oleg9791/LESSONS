@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
+body {
+    background-image: url(many.png);
+}
+table {
+    margin: 200px 0px 0px 400px;
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    background: linear-gradient(rgba(207, 189, 24, 0.1), rgba(66, 62, 3, 0.5));
+    border-spacing: 0px 1px;
+    box-shadow: 30px 30px 30px rgba(82, 49, 69, 0.678);
+}
+
+table td {
+    border: 1px solid black;
+    font-size: 40px;
+    font-family: "Hachi Maru Pop", cursive;
+    padding: 6px 6px 6px 6px;
+    text-shadow: 1px 1px 2px rgba(241, 113, 9, 0.959);
+}
+table tr:first-child {
+    color: rgb(138, 45, 22);
+    font-weight: bold;
+}
+table tr {
+    color: teal;
+}
+p{
+    margin: -150px 0px 0px 420px;
+    position: absolute;
+    font-size: 50px;
+    font-family: "Hachi Maru Pop", cursive;
+    color: rgb(48, 75, 75);
+    text-shadow: 1px 3px 3px #000;
+
+
+}
