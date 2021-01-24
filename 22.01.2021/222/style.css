@@ -11,21 +11,23 @@ body {
 }
 p {
     color: rgb(30, 28, 202);
-    margin: 20px 0px 0px 350px;
+    margin: 10px 0px 0px 300px;
     font-size: 60px;
     font-family: "Hachi Maru Pop", cursive;
     animation-name: work;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-
-
-
 }
 .sun {
     float: right;
     animation-name: sunn;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    margin-right: 45px;
+    margin-top: 50px;
+    /* width: 200px;
+    height: 200px; */
+    
 }
 .cvetok {
     position: absolute;
@@ -60,12 +62,11 @@ input[type="submit"]:hover {
 }
 @keyframes work {
     from {
-
-        opacity: 1.0 ;
+        opacity: 1;
     }
     to {
         /* transition: 2s; */
 
-        opacity: 0.4 ;
+        opacity: 0.4;
     }
 }
