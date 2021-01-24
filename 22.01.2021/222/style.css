@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
+body {
+    background-image: url(vesna.png);
+}
+.vesna {
+    margin: 200px 0px 0px 600px;
+    position: absolute;
+    font-size: 25px;
+    font-family: "Hachi Maru Pop", cursive;
+    color: rgb(22, 158, 34);
+}
+p {
+    color: rgb(30, 28, 202);
+    margin: 20px 0px 0px 350px;
+    font-size: 60px;
+    font-family: "Hachi Maru Pop", cursive;
+    animation-name: work;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+
+
+}
+.sun {
+    float: right;
+    animation-name: sunn;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.cvetok {
+    position: absolute;
+    margin: 350px 0px 0px 400px;
+}
+.cvetok img {
+    height: 80px;
+}
+input[type="submit"] {
+    color: rgb(30, 28, 202);
+    font-size: 20px;
+    font-family: "Hachi Maru Pop", cursive;
+    margin-left: 250px;
+    border-radius: 7px;
+    background-color: rgb(25, 197, 219);
+    cursor: pointer;
+    outline: none;
+    width: 70px;
+    border: solid 1px rgb(20, 151, 165);
+}
+input[type="submit"]:hover {
+    background-color: rgb(20, 151, 165);
+    transition: 1s;
+}
+@keyframes sunn {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes work {
+    from {
+
+        opacity: 1.0 ;
+    }
+    to {
+        /* transition: 2s; */
+
+        opacity: 0.4 ;
+    }
+}
