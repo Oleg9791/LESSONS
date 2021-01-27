@@ -6,7 +6,8 @@ if (!empty($_POST)) {
         $_POST["text"];
     file_put_contents("var.txt", $row, FILE_APPEND);
     header("Location: ?");
-    die();
+    // echo "спасибо";
+    die();//exit()
 }
 ?>
 <!DOCTYPE html>
@@ -25,11 +26,13 @@ if (!empty($_POST)) {
     $data = file_get_contents("var.txt");
     $records = explode("<----->", $data);
     print_r($records);
+    echo "<table border='1'width='520px'>";
+    echo "<th>Имя</th><th>Почта</th><th>Текст</th>";
+
     foreach ($records as $record) {
-        echo "<table border='1'>";
         // trim($record);
         $row = explode("\n", trim($record));
-        // print_r($row);
+        print_r($row);
         echo "<tr><td>$row[0]</td><td>$row[1]</td><td>$row[2]</td></tr>";
     }
     echo "</table>";

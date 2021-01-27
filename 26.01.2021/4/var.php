@@ -10,4 +10,4 @@ sort($arr);
 print_r($arr);
 
 natsort($arr);
-print_r($arr);
+print_r($arr);// естественная сортировка игнорируя буквы,сортирует по значению
