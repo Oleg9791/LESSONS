@@ -6,7 +6,6 @@ if (!empty($_POST)) {
         $_POST["text"];
     file_put_contents("var.txt", $row, FILE_APPEND);
     header("Location: ?");
-    // echo "спасибо";
     die();//exit()
 }
 ?>
