@@ -9,6 +9,23 @@ $dayWeek = [
     "Sunday" => "Воскресенье"
 ];
 $date = date("l");
-// $today = $dayWeek[$date];
-// echo $today;//выводит сегодняшний день
+// $today = $dayWeek[$date];                 //второй вариант
+// echo $today;//выводит сегодняшний день    //второй вариант
 echo $today = $dayWeek[date("l")];
+echo "<br>";
+
+?>
+
+
+
+<?php
+function getDay()
+{
+    $days = array(
+        'Воскресенье', 'Понедельник', 'Вторник', 'Среда',
+        'Четверг', 'Пятница', 'Суббота'
+    );
+    return $days[(date('w'))];
+}
+echo "Сегодня: "  . getDay();
+?>

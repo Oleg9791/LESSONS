@@ -8,4 +8,4 @@ for ($i = 0; $i < 1000; $i++) {
 $time_end = microtime(1);
 $time = $time_end - $time_start;
 
-echo $time;
+echo "ничего не делал $time секунд\n";

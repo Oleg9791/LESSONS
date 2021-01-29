@@ -9,4 +9,4 @@ $second = time() - mktime(0, 0, 0, $month, $day, $year);
 
 $days = floor($second / (60 * 60 * 24));
 
-echo $days;
+echo $days . "  Полных дней(суток)";
