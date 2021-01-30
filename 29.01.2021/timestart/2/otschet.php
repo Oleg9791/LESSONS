@@ -14,10 +14,12 @@
 
     $today = time();
     $second = $start - $today;
+    // echo $second;
 
     $days = floor($second / (60 * 60 * 24));
 
-    $h = floor(($second % (60 * 60 * 24)) / (60 * 60));
+
+    $h = floor(($second %  (60 * 60 * 24)) / (60 * 60));
 
     // echo 10 % 4;
 

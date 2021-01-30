@@ -1,4 +1,7 @@
 <?php
 
-echo time()."<br>"; 
-echo microtime(true);
+echo time() . "\n";
+
+echo microtime() . "\n";
+
+echo microtime(true) . "\n";

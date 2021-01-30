@@ -8,7 +8,7 @@ $dayWeek = [
     "Saturday" => "Суббота",
     "Sunday" => "Воскресенье"
 ];
-$date = date("l");
+// $date = date("l");
 // $today = $dayWeek[$date];                 //второй вариант
 // echo $today;//выводит сегодняшний день    //второй вариант
 echo $today = $dayWeek[date("l")];

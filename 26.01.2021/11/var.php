@@ -15,16 +15,17 @@ include "add.php";
 
     <?php
     $data = file_get_contents("var.txt");
+    print_r($data);
     $records = explode("<----->", $data);
-    print_r($records);
+    // print_r($records);
     echo "<table border='1'width='520px'>";
-    echo "<th>Имя</th><th>Почта</th><th>Текст</th>";
+    echo "<th>Имя</th><th>Почта</th><th>Текст</th><th>Дата/Время</th>";
 
     foreach ($records as $record) {
         // trim($record);
         $row = explode("\n", trim($record));
-        print_r($row);
-        echo "<tr><td>$row[0]</td><td>$row[1]</td><td>$row[2]</td></tr>";
+        // print_r($row);
+        echo "<tr><td>$row[0]</td><td>$row[1]</td><td>$row[2]</td><td>$row[3]</td></tr>";
     }
     echo "</table>";
     ?>

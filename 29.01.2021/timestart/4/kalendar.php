@@ -23,6 +23,7 @@
         "Sunday" => "Воскресенье"
     ];
     $date = explode("-", $_POST["date"]);
+    print_r($date);
     $date = date("l", mktime(0, 0, 0, $date[1], $date[2], $date[0]));
     echo $dayWeek[$date];
     ?>

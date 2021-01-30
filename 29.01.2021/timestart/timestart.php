@@ -1,5 +1,5 @@
 <?php
-$time_start = microtime(1);
+$time_start = microtime(true);
 
 for ($i = 0; $i < 1000; $i++) {
     //ничего не делать.Повторить 1000раз
