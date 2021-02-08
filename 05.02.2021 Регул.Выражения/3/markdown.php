@@ -2,8 +2,8 @@
 
 
 $str = $_POST["name"];
-$str = preg_replace("/:\)/iu",);
-$rep = "<i>$1</i>";
+$pat = "/(:\))|(:\()/iu";
+$rep = "<b>$0</b>";
 
 $str2 = preg_replace($pat, $rep, $str);
 echo $str2;

@@ -5,7 +5,7 @@ echo preg_replace(
         "/:-?\)/iu",
         "/:-?\(/iu",
         "/:p/iu",
-        "/:-\*/iu"
+        "/:\-\*/iu"
     ],
     [
         "<img src='Emotes-face-smile-icon.png'>",
