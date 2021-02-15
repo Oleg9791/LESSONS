@@ -1,3 +1,3 @@
 <?php
-$header = get_headers('https://tut.by/', 1);
+$header = get_headers('https://mail.ru/', 1);
 print_r($header);
