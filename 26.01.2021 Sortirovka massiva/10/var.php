@@ -14,7 +14,7 @@ echo array_product($arr); //произведение эл-тов массива
 echo "\n";
 print_r(array_reverse($arr));
 echo "\n";
-  echo array_search("5",$arr);
+  echo array_search("5  16.02,2021 Отправка файла на сервер",$arr);
 //   
 ?>
 
@@ -23,12 +23,12 @@ echo "\n";
     // $array = ["one", 2, "3", 4, "five"];
     // $array2 = [8, 12];
 
-    // echo count($array) . "<br>"; // 5
+    // echo count($array) . "<br>"; // 5  16.02,2021 Отправка файла на сервер
 
     // echo array_sum($array) . "<br>"; // 9
 
     // print_r(array_merge($array, $array2)); 
-    // // Array ( [0] => one [1] => 2 [2] => 3 [3] => 4 [4] => five [5] => 8 [6] => 12 )
+    // // Array ( [0] => one [1] => 2 [2] => 3 [3] => 4 [4] => five [5  16.02,2021 Отправка файла на сервер] => 8 [6] => 12 )
     // echo "<br>";
 
     // echo array_product($array) . "<br>"; // 0
