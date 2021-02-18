@@ -1,6 +1,6 @@
 <?php
-if (!isset($_COOKIE["count"]))
-    setcookie("count", 1);
+if (!isset($_COOKIE["count12"]))
+    setcookie("count12", 1);
 else
-    setcookie("count", $_COOKIE["count"] + 1);
-echo $_COOKIE["count"];//счетчик куки в браузере
+    setcookie("count12", $_COOKIE["count12"] + 1);
+echo $_COOKIE["count12"];//счетчик куки в браузере

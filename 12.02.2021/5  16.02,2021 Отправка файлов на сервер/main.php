@@ -7,16 +7,25 @@
     <title>Document</title>
 </head>
 <body>
+<div>
+    <img src="img\word.png" alt="картинка">
+    <img src="img\pdf.png" alt="картинка">
+    <img src="img\cel.png" alt="картинка">
+    <img src="img\dword.png" alt="картинка">
+</div>
+<br>
+
+<form enctype="multipart/form-data" action="up.php" method="POST">
+    <!-- Поле MAX_FILE_SIZE должно быть указано до поля загрузки файла -->
+    <input type="hidden" name="MAX_FILE_SIZE" value="300000000000"/>
+    <!-- Название элемента input определяет имя в массиве $_FILES -->
+    Отправить этот файл: <input name="userfile" type="file"/>
+    <input type="submit" value="Отправить файл"/>
+</form>
+<br>
 <?php
 include "showdir.php";
 ?>
-<form enctype="multipart/form-data" action="up.php" method="POST">
-    <!-- Поле MAX_FILE_SIZE должно быть указано до поля загрузки файла -->
-    <input type="hidden" name="MAX_FILE_SIZE" value="30000000" />
-    <!-- Название элемента input определяет имя в массиве $_FILES -->
-    Отправить этот файл: <input name="userfile" type="file" />
-    <input type="submit" value="Отправить файл" />
-</form>
 </body>
 </html>
 </html>
