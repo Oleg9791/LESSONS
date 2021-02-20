@@ -13,11 +13,13 @@ include "smile.php";
 
 $data = json_decode(file_get_contents("data.json"), true);
 foreach ($data as $row) {
-    if (!cenzura($row["msg"])){
+    if (!cenzura($row["msg"])) {
 
+        $row1 = preg_replace("/\b\d{2}+\-\d{2}+\-\d{2}+\b/ius", " ", $row["time"]);
 
-        echo smile($row["msg"]) . $row["name"] . "<br>\n";
-}
+        echo smile($row["msg"]) . " " . $row["name"] . $row1 . "<br>\n";
+    }
+
 }
 ?>
 <form action="add.php" method="post">

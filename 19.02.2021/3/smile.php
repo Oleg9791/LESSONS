@@ -18,5 +18,5 @@ function smile($text)
 
 function cenzura($text)
 {
-    return preg_match_all("/.*дурак.*/iu", $text);
+    return preg_match_all("/.*дурак.*/iu",$text);
 }
