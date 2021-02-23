@@ -5,6 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
     <title>Document</title>
 </head>
 <body>
@@ -22,10 +25,24 @@ foreach ($data as $row) {
 
 }
 ?>
-<form action="add.php" method="post">
-    <textarea name="msg" cols="30" rows="10"></textarea>
-    <input type="text" name="name">
-    <input type="submit" value="ok">
-</form>
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            One of three columns
+        </div>
+        <div class="col-sm">
+            <form action="add.php" method="post">
+    <textarea name="msg" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+              style="height: 100px" cols="30" rows="10"></textarea>
+                <input type="text" name="name">
+                <input type="submit" class="btn btn-primary" value="ok">
+            </form>
+        </div>
+        <div class="col-sm">
+            One of three columns
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
