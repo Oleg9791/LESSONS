@@ -1,0 +1,70 @@
+body {
+    margin-top: 20px;
+    background: url("https://www.wallpapertip.com/wmimgs/0-3788_simple-light-blue-background.jpg");
+}
+
+.top {
+    margin-top: 50px;
+}
+
+.but {
+    text-shadow: 1px 1px 1px black;
+
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    color: aliceblue;
+    height: 80px;
+    width: 100px;
+    border-radius: 10px;
+    background: -moz-linear-gradient(top, rgba(30, 154, 100, 1) 0%, rgba(126, 232, 175, 0) 100%);
+    background: -webkit-linear-gradient(top, rgba(30, 154, 100, 1) 0%, rgba(126, 232, 175, 0) 100%);
+    background: linear-gradient(to bottom, rgba(30, 154, 100, 1) 0%, rgba(126, 232, 175, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e9a64', endColorstr='#007ee8af', GradientType=0);
+
+}
+
+.rav {
+    /*margin-left: 40px;*/
+    text-shadow: 1px 1px 1px black;
+    outline: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    color: aliceblue;
+
+    height: 50px;
+    width: 140px;
+    background: -moz-linear-gradient(top, rgba(30, 154, 100, 1) 0%, rgba(126, 232, 175, 0) 100%);
+    background: -webkit-linear-gradient(top, rgba(30, 154, 100, 1) 0%, rgba(126, 232, 175, 0) 100%);
+    background: linear-gradient(to bottom, rgba(30, 154, 100, 1) 0%, rgba(126, 232, 175, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e9a64', endColorstr='#007ee8af', GradientType=0);
+
+}
+
+.txt {
+    margin-left: 90px;
+    text-shadow: 1px 1px 1px black;
+    width: 260px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    color: #f6f3f3;
+    background: -moz-linear-gradient(top, rgba(30, 154, 100, 1) 0%, rgba(126, 232, 175, 0) 100%);
+    background: -webkit-linear-gradient(top, rgba(30, 154, 100, 1) 0%, rgba(126, 232, 175, 0) 100%);
+    background: linear-gradient(to bottom, rgba(30, 154, 100, 1) 0%, rgba(126, 232, 175, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e9a64', endColorstr='#007ee8af', GradientType=0);
+
+}
+.tab {
+    margin-left: 90px;
+}
+.footer {
+    padding-top: 15px;
+    margin-top: 20px;
+    height: 60px;
+    background-color: rgb(105, 97, 97);
+}
