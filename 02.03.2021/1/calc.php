@@ -1,8 +1,5 @@
 <?php
 preg_match("/(\d+)(\+|\-|\*|\/|\*\*)(\d+)/iu", $_POST["calc"], $matches);
-$a = $matches[1];
-$b = $matches[3];
-$operation = $matches[2];
 //switch ($operation) {
 //    case "+":
 //        $result = $a + $b;
@@ -25,11 +22,26 @@ $operation = $matches[2];
 //
 //}
 //echo $result;
-echo match ($operation) {
-    "+" => $a + $b,
-    "-" => $a - $b,
-    "*" => $a * $b,
-    "/" => $a / $b,
-    "**" => $a ** $b,
-    default => "Unknown operation"
-};
+//header("Location: main.php");
+
+//include "calc.php";
+
+    $a = $matches[1];
+    $b = $matches[3];
+    $operation = $matches[2];
+
+
+    $result = match ($operation) {
+        "+" => $a + $b,
+        "-" => $a - $b,
+        "*" => $a * $b,
+        "/" => $a / $b,
+        "**" => $a ** $b,
+        default => "Unknown operation"
+    };
+    file_put_contents("log.txt", $result, FILE_APPEND);
+
+    echo $result;
+
+//header("Location: main.php");
+
