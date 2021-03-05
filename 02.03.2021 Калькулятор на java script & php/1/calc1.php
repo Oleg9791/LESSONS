@@ -1,3 +1,4 @@
+<?php include 'calc.php' ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -90,8 +91,8 @@
             </div>
         </div>
         <div class="col-6">
-            <form action="calc.php" method="post">
-                <input type="text" class="txt" name="calc" value="0"
+            <form action="?" method="post">
+                <input type="text" class="txt" name="calc" value="<?= $result; ?>"
                        id="text"
                        readonly="readonly">
                 <input type="submit" class="rav" value="рассчитать" name="res">
