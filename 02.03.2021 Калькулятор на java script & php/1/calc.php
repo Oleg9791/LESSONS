@@ -4,25 +4,25 @@ $a = $matches[1];
 $b = $matches[3];
 $operation = $matches[2];
 
-switch ($operation) {
-    case "+":
-        $result = $a + $b;
-        break;
-
-    case "-":
-        $result = $a - $b;
-        break;
-
-    case "*":
-        $result = $a * $b;
-        break;
-
-    case "/":
-        $result = $a / $b;
-        break;
-    default:
-        $result = "Неизвестная операция";
-}
+//switch ($operation) {
+//    case "+":
+//        $result = $a + $b;
+//        break;
+//
+//    case "-":
+//        $result = $a - $b;
+//        break;
+//
+//    case "*":
+//        $result = $a * $b;
+//        break;
+//
+//    case "/":
+//        $result = $a / $b;
+//        break;
+//    default:
+//        $result = "Неизвестная операция";
+//}
 //
 //
 //}
@@ -33,14 +33,14 @@ switch ($operation) {
 
 
 
-//    $result = match ($operation) {
-//        "+" => $a + $b,
-//        "-" => $a - $b,
-//        "*" => $a * $b,
-//        "/" => $a / $b,
-//        "**" => $a ** $b,
-//        default => "Unknown operation"
-//    };
+    $result = match ($operation) {
+        "+" => $a + $b,
+        "-" => $a - $b,
+        "*" => $a * $b,
+        "/" => $a / $b,
+        "**" => $a ** $b,
+        default => "Unknown operation"
+    };
 //    file_put_contents("log.txt", $result, FILE_APPEND);
 
 //    echo $result;
