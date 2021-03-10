@@ -96,7 +96,9 @@ FROM `vedomost`
 WHERE `otdel` IN ('склад','бухгалтерия');
 13. з-п д б ровно  400 и ровно 100
 
-
+SELECT *
+FROM `vedomost`
+WHERE `zp` IN(100,400)
 
 
 

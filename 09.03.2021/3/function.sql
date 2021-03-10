@@ -1,3 +1,9 @@
+--создать таблицу через sql
+CREATE TABLE ved (
+                     id integer,
+                     fio varchar(50),
+                     zp float
+);
 -- создать (это через экспорт)
 CREATE TABLE `ved` (
                        `id` int NOT NULL,
@@ -10,6 +16,8 @@ ALTER TABLE `ved`
 ALTER TABLE `ved`
     MODIFY `id` int NOT NULL AUTO_INCREMENT;
 
+
+
 -- добавить атрибут и кортеж
 INSERT INTO `ved` (`fio`,`zp`)
 VALUES('Hanna',300);
@@ -17,25 +25,20 @@ VALUES('Hanna',300);
 INSERT INTO `ved` (`fio`,`zp`)
 VALUES('Helena',400);
 
-INSERT INTO `ved` (`fio`,`zp`)
-VALUES('Alex',500);
-
-INSERT INTO `ved` (`fio`,`zp`)
-VALUES('Lanna',600);
-
-INSERT INTO `ved` (`fio`,`zp`)
-VALUES('Yan',700);
-
 -- увеличить з/п на 10%
 UPDATE ved SET zp = zp*1.1
 WHERE zp<500
+--
+UPDATE `vedomost` SET `zp`= `zp`*1.1
+WHERE otdel="склад";
 
 -- поменять зарплату
 UPDATE ved SET zp = 900
 WHERE id = 3;
 
 -- удалить запись(кортеж)
-DELETE FROM `ved` WHERE id=5;
+DELETE FROM `ved`
+WHERE id=5;
 
 -- удалить всю таблицу
 DROP TABLE `ved`;
@@ -68,13 +71,18 @@ SELECT *
 FROM `vedomost`
 WHERE `nomer` IN (2,4,5)
 
+-- ищем з/п равную 100,400
+SELECT *
+FROM `vedomost`
+WHERE `zp`IN (100,400)
+
 --
 SELECT SUM(`zp`) AS 'ОБЩАЯ ЗАРПЛАТА'
 FROM `vedomost`
 
 --
 SELECT
-    SUM(`zp`) AS 'Общая сумма',
+    SUM(`zp`) AS 'Общая сумма всех зарплат',
     MIN(`zp`) AS 'Минимальная зарплата',
     MAX(`zp`) AS 'Максимальная зарплата',
     AVG(`zp`) AS 'Средняя зарплата',
