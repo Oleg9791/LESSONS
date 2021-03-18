@@ -121,12 +121,30 @@ GROUP BY
     `CITY`
     14 . Продавец у которого самые маленькие комиссионные
 
-
+SELECT
+    *
+FROM
+    `salespeople`
+WHERE
+        `COMM` =(
+        SELECT
+            MIN(`COMM`)
+        FROM
+            salespeople
+    )
 
     15 . Найти покупателя с самым высоким рейтингом
-SELECT *
-FROM `customers`
-WHERE `RATING`=(SELECT MAX(`RATING`) FROM customers)
+SELECT
+    *
+FROM
+    `customers`
+WHERE
+        `RATING` =(
+        SELECT
+            MAX(`RATING`)
+        FROM
+            customers
+    )
 
 
     16 . Найти клиента у которого фамилия заканчивается на букву s
