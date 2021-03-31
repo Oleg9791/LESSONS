@@ -22,6 +22,7 @@
             include_once "connect.php";
             //echo $_GET["id"];
             $sql = "SELECT * FROM `vedomost` WHERE id = $_GET[id]";
+            /** @var mysqli $link */
             $result = mysqli_query($link, $sql);
             $row = mysqli_fetch_assoc($result);
 
