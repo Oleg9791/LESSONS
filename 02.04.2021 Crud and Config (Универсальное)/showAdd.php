@@ -13,15 +13,24 @@
 </head>
 <body>
 <form action="add.php" method="post">
-    <div class="input-group mb-3">
-        <input type="text" name="name" class="form-control" placeholder="Имя" aria-label="Username"
-               aria-describedby="basic-addon1">
-    </div>
-    <div class="input-group mb-3">
-        <input type="text" name="zp" class="form-control" placeholder="Зарплата" aria-label="Username"
-               aria-describedby="basic-addon1">
-    </div>
+    <?php
+    include_once "connect.php";
+    /**
+     * @var mysqli $link соединение с базой данных
+     * @var array $config конфигурационные данные из файла config
+     */
+    $fields = fieldsList($link, $config["mysql"]["table"]);//вызов функции,которая возвращает список полей из таблицы базы данных
+    foreach ($fields as $field) {
+        ?>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" name="<?= $field ?>" placeholder="<?= $field ?>"> //генерируются поля формы, соответствующие полям таблицы базы данных
+        </div>
+        <?php
+    }
+    ?>
+
     <input type="submit" class="btn btn-primary" value="Добавить">
 </form>
+
 </body>
 </html>

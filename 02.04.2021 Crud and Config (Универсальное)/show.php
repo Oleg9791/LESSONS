@@ -18,8 +18,8 @@
 
 include_once "connect.php";
 
-$fields = fieldsList($link, $config["mysql"]["table"]);
-
+$fields = fieldsList($link, $config["mysql"]["table"]);//вызов функции,которая возвращает список полей из таблицы базы данных
+//print_r($fields);
 
 $sql = "SELECT * FROM `{$config['mysql']['table']}`"; // имя таблицы передается из файла config
 

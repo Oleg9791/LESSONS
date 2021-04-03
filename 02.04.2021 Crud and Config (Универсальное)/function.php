@@ -1,4 +1,3 @@
-//function.php
 <?php
 /**
  * функция возвращает список полей таблицы, в саму функцию передаем подключение и имя таблицы
@@ -8,7 +7,7 @@
  */
 function fieldsList($dbLink, $tableName): array
 {
-    $sql = "SHOW COLUMNS FROM $tableName";
+    $sql = "SHOW COLUMNS FROM $tableName";//запрос на вывод полей базы данных
     $result = mysqli_query($dbLink, $sql);
     $fields = [];
 

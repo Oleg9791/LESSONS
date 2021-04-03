@@ -1,4 +1,4 @@
-<?php //edit.php
+<?php //
 include_once "connect.php";
 $str = [];
 foreach ($_POST as $field => $value) {

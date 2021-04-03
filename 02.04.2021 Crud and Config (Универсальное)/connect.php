@@ -1,5 +1,5 @@
-// файл connect
-<?php // подключаем файл config,function и устанавливаем соединение с базой данных
+<?php
+// подключаем файл config,function и устанавливаем соединение с базой данных
 include_once "config.php";
 include_once "function.php";
 
@@ -10,3 +10,4 @@ $link = mysqli_connect(
     $config["mysql"]["password"],
     $config["mysql"]["bd"]
 );
+//print_r($config);
