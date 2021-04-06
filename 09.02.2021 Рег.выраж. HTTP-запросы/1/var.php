@@ -13,5 +13,5 @@ foreach ($array[0] as $value) {
     echo $value;
 
 }
-//echo "Кол-во слов <b>минск</b> равно $count " . "<br>";
+//echo "Кол-во слов <b>минск</b> равно $calc " . "<br>";
 

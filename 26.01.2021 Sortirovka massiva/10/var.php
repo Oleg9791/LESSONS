@@ -23,7 +23,7 @@ echo "\n";
     // $array = ["one", 2, "3", 4, "five"];
     // $array2 = [8, 12];
 
-    // echo count($array) . "<br>"; // 5  16.02,2021 Отправка файлов на сервер
+    // echo calc($array) . "<br>"; // 5  16.02,2021 Отправка файлов на сервер
 
     // echo array_sum($array) . "<br>"; // 9
 

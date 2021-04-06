@@ -52,7 +52,7 @@
                 $count = $value[1] * 1;
                 echo     "<input type='radio' name='answer' value='$key'>$value[0]($count)%<br><br><div style='height:5px; background-color: red; width:$count%' ></div><br>\n";
             }
-            // echo     "<input type='radio' name='answer' value='$key'>$value[0]($count)<br>\n";
+            // echo     "<input type='radio' name='answer' value='$key'>$value[0]($calc)<br>\n";
 
 
             ?>

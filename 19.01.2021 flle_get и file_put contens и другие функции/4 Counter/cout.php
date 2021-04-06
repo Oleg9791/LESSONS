@@ -1,7 +1,7 @@
 <?php
 
-$counter = file_get_contents("count.txt");
+$counter = file_get_contents("calc.txt");
 
 // echo $counter += 1;
 
-echo file_put_contents("count.txt", ++$counter);
+echo file_put_contents("calc.txt", ++$counter);

@@ -39,7 +39,7 @@
         <?php
         foreach ($answers as $key =>  $value) {
             $count = $value[1] * 1;
-            // echo     "<input type='radio' name='answer' value='$key'>$value[0]($count)<br>\n";
+            // echo     "<input type='radio' name='answer' value='$key'>$value[0]($calc)<br>\n";
             echo " <input type='radio' value='$key' name='answer'>$value[0] <div  style='height:5px; background-color: brown; width: $count%' >($count)</div><br>";
         }
         ?>
