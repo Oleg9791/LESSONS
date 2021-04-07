@@ -6,11 +6,11 @@
 class Calc
 {
     /**
-     * @var float переменная для вычислений калькулятора
+     * @var float переменная a для вычислений калькулятора
      */
     public float $a;
     /**
-     * @var float переменная для вычислений калькулятора
+     * @var float переменная b для вычислений калькулятора
      */
     public float $b;
 
@@ -65,6 +65,16 @@ class Calc
 
         return $this->a / $this->b;
     }
+    /**
+     * @return float функция для деления чисел
+     */
+
+    public function pow(): float
+    {
+
+        return $this->a ** $this->b;
+    }
+
 
 }
 

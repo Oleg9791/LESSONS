@@ -41,7 +41,7 @@ class Calc
 
 $calc = new Calc(10, 2);
 
-//echo $calc->Sum() . "<br>";
-//echo $calc->Ran() . "<br>";
-//echo $calc->Uno() . "<br>";
-//echo $calc->Del();
+echo $calc->Sum() . "<br>";
+echo $calc->Ran() . "<br>";
+echo $calc->Uno() . "<br>";
+echo $calc->Del();
