@@ -4,6 +4,8 @@ class Calc
 {
     public float $a;
     public float $b;
+//    private float $a;
+//    private float $b;
 
 
     public function __construct($a, $b)
@@ -44,4 +46,10 @@ $calc = new Calc(10, 2);
 echo $calc->Sum() . "<br>";
 echo $calc->Ran() . "<br>";
 echo $calc->Uno() . "<br>";
-echo $calc->Del();
+echo $calc->Del() . "<br>";
+echo $calc->a = 35 ;
+echo "<br>";
+echo $calc->Sum() . "<br>";
+echo $calc->Ran() . "<br>";
+echo $calc->Uno() . "<br>";
+echo $calc->Del() . "<br>";
