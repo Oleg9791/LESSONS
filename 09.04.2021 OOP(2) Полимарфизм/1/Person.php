@@ -39,7 +39,8 @@ class Student extends Person
 $man = new Worker("Ivan", 45);
 $boy = new Student("Rustam", 29);
 
-//echo $man->say() . "<br>";
-//echo $boy->say();
-//echo $man->work();
+echo $man->say() . "<br>";
+echo $man->work() . "<br>";
+
+echo $boy->say(). "<br>";
 echo $boy->work();

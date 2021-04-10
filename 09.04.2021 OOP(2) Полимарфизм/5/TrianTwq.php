@@ -55,6 +55,11 @@ class TrianBin extends Triangle
 }
 
 $hup = new TrianBin(8, 10);
-echo $hup->square() . "<br>";
-echo $hup->perim() . "<br>";
-echo $hup->hypo();
+
+echo "Гипотенуза ={$hup->hypo()}<br>";
+$hup->setA(5);
+$hup->setB(8);
+echo "Гипотенуза ={$hup->hypo()}<br>";
+
+echo "Площадь = {$hup->square()}  <br>";
+echo "Периметр = {$hup->perim()} <br>";

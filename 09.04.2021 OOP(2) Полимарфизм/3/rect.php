@@ -45,7 +45,8 @@ class Perimetr extends Rect
     }
 }
 
-//$number = new Rect(5, 4);
+$number = new Rect(5, 4);
+echo $number->square(). "<br>";
 $per = new Perimetr(5, 4);
 echo $per->square() . "<br>";
 echo $per->per() . "<br>";

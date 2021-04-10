@@ -46,7 +46,7 @@ class Trian
     }
 }
 
-$tria = new Trian(0, 7);
+$tria = new Trian(0, 5);
 
 echo $tria->c()."<br>";
 $tria->setA(2);

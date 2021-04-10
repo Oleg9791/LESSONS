@@ -1,5 +1,6 @@
 <?php
-
+// Написать класс калькулятор умеющий складывать и вычитать  два числа.
+//Написать потомка класса калькулятор умеющего умножать и делить числа.
 
 class Calc
 {
@@ -38,9 +39,10 @@ class CalcOne extends Calc
     }
 }
 
-$number = new Calc(10, 45);
-$numberOne = new CalcOne(5, 10);
+$number = new Calc(15, 45);
+$numberOne = new CalcOne(15, 10);
 echo $number->sum() . "<br>";
 
-echo $numberOne->mult();
+echo $numberOne->mult() . "<br>";
+echo $numberOne->div();
 
