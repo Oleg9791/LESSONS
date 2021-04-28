@@ -32,9 +32,7 @@ class Map extends TicTac
                 if ($this->map[$i][$j] == "") {
                     $table .= "<td style='width: 30px;height: 30px'></td>";
                 }
-
             }
-
         }
         $table .= "</table>";
 
