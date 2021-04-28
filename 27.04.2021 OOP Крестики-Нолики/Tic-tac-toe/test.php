@@ -11,7 +11,6 @@ $tictac = new TicTac();
     ->putZero(2,2)
     ->putZero(1,2)
     ->putCross(2, 1)
-
     ->getMap()
 );
 
