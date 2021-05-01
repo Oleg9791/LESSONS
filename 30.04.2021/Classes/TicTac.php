@@ -70,7 +70,7 @@ class TicTac
         return $this->checkWinnerByRow($this->map) or $this->checkWinnerByCol();
     }
 
-    public function checkWinnerByCol()
+    public function checkWinnerByCol() // транспонирование матрицы
     {
         $map = array_map(null, ...$this->map);
 //        print_r($map);

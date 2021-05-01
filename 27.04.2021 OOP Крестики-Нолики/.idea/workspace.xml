@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9675b0a-dffd-46cc-9596-f436ed5f61ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tic-tac-toe/run.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../30.04.2021/Calculator/Calculator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../30.04.2021/Calculator/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../30.04.2021/Classes/Map.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../30.04.2021/Classes/TicTac.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../30.04.2021/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../30.04.2021/run.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../30.04.2021/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../30.04.2021/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../30.04.2021/unittest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tic-tac-toe/Classes/Map.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tic-tac-toe/Classes/Map.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../30.04.2021/Calculator/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/../30.04.2021/Calculator/test.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +54,9 @@
       <workItem from="1619540564533" duration="7718000" />
       <workItem from="1619629421214" duration="7706000" />
       <workItem from="1619714550330" duration="5861000" />
-      <workItem from="1619796197361" duration="4049000" />
+      <workItem from="1619796197361" duration="4050000" />
+      <workItem from="1619808507215" duration="609000" />
+      <workItem from="1619861391389" duration="1021000" />
     </task>
     <servers />
   </component>
