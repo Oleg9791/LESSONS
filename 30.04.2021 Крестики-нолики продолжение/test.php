@@ -96,3 +96,52 @@ test(
     true
 );
 
+
+test(
+    $tictac->setMap([
+        ["", "", ""],
+        ["", "", ""],
+        ["", "", ""]
+    ])->checkWinnerByDiagonal(),
+    false
+);
+
+test(
+    $tictac->setMap([
+        ["X", "", "0", "", ""],
+        ["", "0", "0", "", ""],
+        ["", "", "X", "", ""],
+        ["", "", "X", "X", ""],
+        ["", "", "X", "", "X"]
+    ])->checkWinnerByDiagonal(),
+    false
+);
+
+test(
+    $tictac->setMap([
+        ["X", ""],
+        ["", "X"]
+
+    ])->checkWinnerByDiagonal(),
+    true
+);
+test(
+    $tictac->setMap([
+        ["X", ""],
+        ["", "X"]
+
+    ])->checkWinnerByDiagonal(),
+    true
+);
+
+test(
+    $tictac->setMap([
+        ["X", "", "0", "", "0"],
+        ["", "X", "0", "0", ""],
+        ["", "", "0", "", ""],
+        ["", "0", "X", "X", ""],
+        ["0", "", "X", "", "X"]
+
+    ])->checkWinnerByPobochDiagonal(),
+    true
+);
