@@ -34,3 +34,6 @@ echo $calc->sinB();
 echo "<br>";
 
 
+
+
+

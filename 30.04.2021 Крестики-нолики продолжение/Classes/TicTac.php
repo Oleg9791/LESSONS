@@ -129,6 +129,9 @@ class TicTac
         return false;
     }
 
+
+
+
 //    public function checkWinnerByPobochDiagonal(): bool
 //    {
 //        if ($this->map[count($this->map)-1][0] !== "") {
