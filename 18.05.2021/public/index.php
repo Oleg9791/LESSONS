@@ -1,5 +1,6 @@
 <?php
 include "../autoload.php";
+use W1020\Calc;
 ?>
 <!doctype html>
 <html lang="en">
@@ -18,6 +19,6 @@ include "../autoload.php";
     <input type="text" name="b">
     <input type="submit" value="ok">
 </form>
-<b><?= (new W1020\Calc($_POST["a"] ?? 0, $_POST["b"] ?? 0))->sum() ?></b>
+<b><?= (new Calc($_POST["a"] ?? 0, $_POST["b"] ?? 0))->sum() ?></b>
 </body>
 </html>
