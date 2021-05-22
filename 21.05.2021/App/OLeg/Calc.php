@@ -18,13 +18,4 @@ class Calc
         return $this->a + $this->b;
     }
 
-    public function mult(): float
-    {
-        return $this->a * $this->b;
-    }
-
-    public function dif(): float
-    {
-        return $this->a / $this->b;
-    }
 }
