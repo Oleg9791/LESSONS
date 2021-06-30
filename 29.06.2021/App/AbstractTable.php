@@ -28,7 +28,6 @@ abstract class AbstractTable
         $table = $this->read();
         $table[] = $row;
         $this->save($table);
-
         return $this;
     }
 

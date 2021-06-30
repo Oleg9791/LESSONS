@@ -4,7 +4,7 @@
 namespace App;
 
 
-class BD
+class DB
 {
     protected ICrud $driver;
 
