@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/21.05.2021 Calc c неймспейсом и composer/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/Kot/vendor/composer" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
