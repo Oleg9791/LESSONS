@@ -1,0 +1,4 @@
+0;Name:Kolya;ZP:11100
+1;Name:Anton;ZP:900
+2;Name:Kolya;ZP:11100
+3;Name:Anton;ZP:900
