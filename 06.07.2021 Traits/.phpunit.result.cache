@@ -1,1 +1,1 @@
-{"version":1,"defects":{"NewCalcTest::testNewCalc":3},"times":{"CalcTest::testSum":0.004,"NewCalcTest::testNewCalc":0,"NewCalcTest::testNewCalcTrait":0,"NewCalc2Test::testNewCalc2":0}}
+{"version":1,"defects":{"NewCalcTest::testNewCalc":3},"times":{"CalcTest::testSum":0.003,"NewCalcTest::testNewCalc":0,"NewCalcTest::testNewCalcTrait":0,"NewCalc2Test::testNewCalc2":0}}
