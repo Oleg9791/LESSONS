@@ -49,6 +49,6 @@ $db = new DB($txtDriver);
 print_r($db->select());
 
 
-$db->insert(["Name" => "Kolya", "ZP" => 11100]);
-$db->insert(["Name" => "Anton", "ZP" => 900]);
+//$db->insert(["Name" => "Kolya", "ZP" => 11100]);
+//$db->insert(["Name" => "Anton", "ZP" => 900]);
 //$db->update(1, ["fio" => "Kolyaa", "zp" => 1100]);

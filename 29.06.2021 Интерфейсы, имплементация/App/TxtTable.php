@@ -26,7 +26,7 @@ class TxtTable extends AbstractTable implements ICRUD
 
                 }
             }
-            return $table;
+            return $elementBuf;
         } else {
             return [];
         }
