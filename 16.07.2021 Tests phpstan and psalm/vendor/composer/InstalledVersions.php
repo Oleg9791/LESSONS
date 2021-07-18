@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '943e0df8bb235246158c3a3c9360b1af1f815f37',
+    'reference' => '2473ca5ea6786bce02fcface703030054bfce9e7',
     'name' => '__root__',
   ),
   'versions' => 
@@ -44,16 +44,16 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '943e0df8bb235246158c3a3c9360b1af1f815f37',
+      'reference' => '2473ca5ea6786bce02fcface703030054bfce9e7',
     ),
     'amphp/amp' => 
     array (
-      'pretty_version' => 'v2.5.2',
-      'version' => '2.5.2.0',
+      'pretty_version' => 'v2.6.0',
+      'version' => '2.6.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'efca2b32a7580087adb8aabbff6be1dc1bb924a9',
+      'reference' => 'caa95edeb1ca1bf7532e9118ede4a3c3126408cc',
     ),
     'amphp/byte-stream' => 
     array (
@@ -574,6 +574,24 @@ private static $installed = array (
       array (
       ),
       'reference' => 'f73f2299dbc59a3e6c4d66cff4605176e728ee69',
+    ),
+    'w1020/html' => 
+    array (
+      'pretty_version' => 'v0.0.5',
+      'version' => '0.0.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4d8889bccda6cff74ab6e9119ecaef5c8c9a7904',
+    ),
+    'w1020/orm' => 
+    array (
+      'pretty_version' => 'v2.1.10',
+      'version' => '2.1.10.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '56bb92a703bf4d78c4e510033f26a60e5be51dd5',
     ),
     'webmozart/assert' => 
     array (

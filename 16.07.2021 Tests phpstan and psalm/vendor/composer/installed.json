@@ -2,32 +2,32 @@
     "packages": [
         {
             "name": "amphp/amp",
-            "version": "v2.5.2",
-            "version_normalized": "2.5.2.0",
+            "version": "v2.6.0",
+            "version_normalized": "2.6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/amp.git",
-                "reference": "efca2b32a7580087adb8aabbff6be1dc1bb924a9"
+                "reference": "caa95edeb1ca1bf7532e9118ede4a3c3126408cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/amphp/amp/zipball/efca2b32a7580087adb8aabbff6be1dc1bb924a9",
-                "reference": "efca2b32a7580087adb8aabbff6be1dc1bb924a9",
+                "url": "https://api.github.com/repos/amphp/amp/zipball/caa95edeb1ca1bf7532e9118ede4a3c3126408cc",
+                "reference": "caa95edeb1ca1bf7532e9118ede4a3c3126408cc",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7"
+                "php": ">=7.1"
             },
             "require-dev": {
                 "amphp/php-cs-fixer-config": "dev-master",
                 "amphp/phpunit-util": "^1",
                 "ext-json": "*",
                 "jetbrains/phpstorm-stubs": "^2019.3",
-                "phpunit/phpunit": "^6.0.9 | ^7",
+                "phpunit/phpunit": "^7 | ^8 | ^9",
                 "psalm/phar": "^3.11@dev",
                 "react/promise": "^2"
             },
-            "time": "2021-01-10T17:06:37+00:00",
+            "time": "2021-07-16T20:06:06+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -82,7 +82,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/amphp",
                 "issues": "https://github.com/amphp/amp/issues",
-                "source": "https://github.com/amphp/amp/tree/v2.5.2"
+                "source": "https://github.com/amphp/amp/tree/v2.6.0"
             },
             "funding": [
                 {
@@ -3827,6 +3827,73 @@
                 "source": "https://github.com/vimeo/psalm/tree/4.8.1"
             },
             "install-path": "../vimeo/psalm"
+        },
+        {
+            "name": "w1020/html",
+            "version": "v0.0.5",
+            "version_normalized": "0.0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rustam-petr/html.git",
+                "reference": "4d8889bccda6cff74ab6e9119ecaef5c8c9a7904"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rustam-petr/html/zipball/4d8889bccda6cff74ab6e9119ecaef5c8c9a7904",
+                "reference": "4d8889bccda6cff74ab6e9119ecaef5c8c9a7904",
+                "shasum": ""
+            },
+            "time": "2021-06-08T16:11:39+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "W1020\\HTML\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/rustam-petr/html/issues",
+                "source": "https://github.com/rustam-petr/html/tree/v0.0.5"
+            },
+            "install-path": "../w1020/html"
+        },
+        {
+            "name": "w1020/orm",
+            "version": "v2.1.10",
+            "version_normalized": "2.1.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/HannaLuniova/ORM.git",
+                "reference": "56bb92a703bf4d78c4e510033f26a60e5be51dd5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/HannaLuniova/ORM/zipball/56bb92a703bf4d78c4e510033f26a60e5be51dd5",
+                "reference": "56bb92a703bf4d78c4e510033f26a60e5be51dd5",
+                "shasum": ""
+            },
+            "time": "2021-06-11T17:05:49+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "W1020\\": "W1020"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "ORM",
+            "support": {
+                "issues": "https://github.com/HannaLuniova/ORM/issues",
+                "source": "https://github.com/HannaLuniova/ORM/tree/v2.1.10"
+            },
+            "install-path": "../w1020/orm"
         },
         {
             "name": "webmozart/assert",

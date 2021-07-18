@@ -11,7 +11,7 @@ class CalcTestTest extends TestCase
 
     public function setUp(): void
     {
-        $this->calc = new Calc();
+        $this->calc = new Calc(1,1);
     }
 
     public function testCalc():void

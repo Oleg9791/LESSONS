@@ -33,7 +33,9 @@ final class Versions
      * @internal
      */
     const VERSIONS          = array (
-  'amphp/amp' => 'v2.5.2@efca2b32a7580087adb8aabbff6be1dc1bb924a9',
+  'w1020/html' => 'v0.0.5@4d8889bccda6cff74ab6e9119ecaef5c8c9a7904',
+  'w1020/orm' => 'v2.1.10@56bb92a703bf4d78c4e510033f26a60e5be51dd5',
+  'amphp/amp' => 'v2.6.0@caa95edeb1ca1bf7532e9118ede4a3c3126408cc',
   'amphp/byte-stream' => 'v1.8.1@acbd8002b3536485c997c4e019206b3f10ca15bd',
   'composer/package-versions-deprecated' => '1.11.99.2@c6522afe5540d5fc46675043d3ed5a45a740b27c',
   'composer/semver' => '3.2.5@31f3ea725711245195f62e54ffa402d8ef2fdba9',
@@ -91,7 +93,7 @@ final class Versions
   'vimeo/psalm' => '4.8.1@f73f2299dbc59a3e6c4d66cff4605176e728ee69',
   'webmozart/assert' => '1.10.0@6964c76c7804814a842473e0c8fd15bab0f18e25',
   'webmozart/path-util' => '2.3.0@d939f7edc24c9a1bb9c0dee5cb05d8e859490725',
-  '__root__' => 'dev-master@943e0df8bb235246158c3a3c9360b1af1f815f37',
+  '__root__' => 'dev-master@2473ca5ea6786bce02fcface703030054bfce9e7',
 );
 
     private function __construct()
